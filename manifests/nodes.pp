@@ -7,6 +7,7 @@ node 'raspberrypi' {
     allow        => ['localhost','10.0.0.0/8']
   }
   include monit
+  include sox
 
   file {'/etc/motd':
     owner  => 'root',
