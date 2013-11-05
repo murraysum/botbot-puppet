@@ -16,3 +16,7 @@ Running Puppet
 Just run 
     ./puppet-run.sh <ip address>
 from your computer.
+
+Credit
+--------------
+Kudos to [@cornet](https://github.com/cornet?source=c) for the puppet bootstrap configuration.
