@@ -8,6 +8,7 @@ node 'raspberrypi' {
   }
   include monit
   include sox
+  include flac
 
   file {'/etc/motd':
     owner  => 'root',
